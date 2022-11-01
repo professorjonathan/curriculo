@@ -68,6 +68,7 @@ h2 {
 
 p {
     padding: 10px;
+    padding-top: 20px;
     margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -102,8 +103,13 @@ main > section > form > fieldset > p {
     max-height: 40vh;
 }
 
+main > section > form > fieldset > legend {
+    padding-top: 20px;
+}
+
 .botao {
     border: 1px solid white;
+    padding: 8px;
 }
 
 footer > p {
