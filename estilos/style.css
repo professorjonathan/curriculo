@@ -56,6 +56,7 @@ div > img {
 }
 
 h2 {
+    font-size: 140%;
     background-image: linear-gradient(to right,black, rgba(79, 76, 76, 0.941));
     color: aqua;
     padding: 10px;
@@ -84,6 +85,7 @@ main > section > p:hover {
     translate: 30px;
     transition: 1s;
     width: 60vw;
+    cursor: pointer;
 }
 
 main > section > form > fieldset {
@@ -105,6 +107,7 @@ main > section > form > fieldset > p {
 
 main > section > form > fieldset > legend {
     padding-top: 20px;
+    margin: auto;
 }
 
 .botao {
@@ -116,7 +119,7 @@ footer > p {
     background-color: white;
     color: black;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 200px;
     max-width: 100vw;
     text-align: center;
 }
